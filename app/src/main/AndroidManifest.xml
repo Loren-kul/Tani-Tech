@@ -13,9 +13,12 @@
         android:theme="@style/Theme.Tanitechid"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".RekomendasiPupukActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> e9a21327fb1ac9612e24e9359143d432438b22b6
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
