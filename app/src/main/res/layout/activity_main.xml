@@ -36,18 +36,19 @@
         android:id="@+id/search_bar"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:hint="Cari tanaman"
+        android:layout_marginTop="12dp"
         android:background="@android:drawable/edit_text"
+        android:backgroundTint="#E0E0E0"
         android:drawableStart="@android:drawable/ic_menu_search"
+        android:hint="Cari tanaman"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
-        android:backgroundTint="#E0E0E0"
-        app:layout_constraintTop_toBottomOf="@id/subtitle"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitle" />
 
-    <!-- 4 Buttons (Grid) -->
+    <!-- Buttons (Grid) -->
     <GridLayout
         android:id="@+id/button_grid"
         android:layout_width="0dp"
@@ -62,9 +63,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Button 1 -->
+        <!-- Button 1 : Cari Tanaman -->
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/btn_cari_tanaman" android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_columnWeight="1"
             android:orientation="vertical"
@@ -86,9 +87,9 @@
                 android:textColor="#000000"/>
         </LinearLayout>
 
-        <!-- Button 2 -->
+        <!-- Button 2 : Panduan Bertani-->
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/btn_panduan_bertani" android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_columnWeight="1"
             android:orientation="vertical"
@@ -110,9 +111,9 @@
                 android:textColor="#000000"/>
         </LinearLayout>
 
-        <!-- Button 3 -->
+        <!-- Button 3 : Peta Tanah-->
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/btn_peta_tanah" android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_columnWeight="1"
             android:orientation="vertical"
@@ -134,9 +135,9 @@
                 android:textColor="#000000"/>
         </LinearLayout>
 
-        <!-- Button 4 -->
+        <!-- Button 4 : Rekomendasi Pupuk -->
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/btn_rekomendasi_pupuk" android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_columnWeight="1"
             android:orientation="vertical"
