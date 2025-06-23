@@ -51,7 +51,7 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // --- Contoh Logika Login (Ganti dengan autentikasi sesungguhnya Anda) ---
+            // --- Contoh Logika Login ---
             if (email == "user@example.com" && password == "password123") {
                 Toast.makeText(this, "Login berhasil!", Toast.LENGTH_SHORT).show()
                 // Navigasi ke aktivitas lain setelah login berhasil
@@ -69,7 +69,7 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "Menavigasi ke layar Pendaftaran...", Toast.LENGTH_SHORT).show()
             // Contoh: Navigasi ke SignUpActivity
             // val intent = Intent(this, SignUpActivity::class.java)
-            // startActivity(intent)
+            // startActivity(intent) // menghapus atau di nonaktifkan
         }
     }
 }
