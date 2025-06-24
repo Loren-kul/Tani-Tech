@@ -88,7 +88,7 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_chili"
+                android:src="@drawable/cabai"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Chili Icon" />
 
