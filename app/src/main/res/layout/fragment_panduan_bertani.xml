@@ -260,6 +260,13 @@
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true">
 
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_lightbulb"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Tips Icon" />
+
         </LinearLayout>
 
     </LinearLayout>
