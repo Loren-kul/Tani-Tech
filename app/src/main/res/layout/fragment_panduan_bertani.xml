@@ -173,6 +173,13 @@
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true">
 
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_plant_pot"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Plant Pot Icon" />
+
         </LinearLayout>
 
     </LinearLayout>
