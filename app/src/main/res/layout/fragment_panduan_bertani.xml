@@ -11,6 +11,16 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanitech"
+            android:textSize="48sp"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="8dp" />
+
     </LinearLayout>
 
 </ScrollView>
