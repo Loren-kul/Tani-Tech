@@ -220,7 +220,7 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/hidroponik_background"
+                android:src="@drawable/hidroponik"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Small Plant Icon" />
 
