@@ -132,7 +132,7 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_rice"
+                android:src="@drawable/padi"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Rice Icon" />
 
@@ -220,7 +220,7 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_small_plant"
+                android:src="@drawable/hidroponik_background"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Small Plant Icon" />
 
