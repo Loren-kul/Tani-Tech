@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanitech"
+            android:textSize="48sp"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panduan Bertani"
+            android:textSize="24sp"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="32dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="32dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/search"
+                    android:layout_marginEnd="12dp"
+                    android:contentDescription="Search Icon" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Cari panduan bertani"
+                    android:textSize="16sp"
+                    android:textColor="@color/dark_gray"
+                    android:textColorHint="@color/gray"
+                    android:background="@null"
+                    android:padding="0dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Panduan:"
+            android:textSize="20sp"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/cabai"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Chili Icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cara Menanam Cabai"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Panduan lengkap mulai dari pemilihan benih, penanaman, hingga panen."
+                    android:textSize="14sp"
+                    android:textColor="@color/dark_gray"
+                    android:lineSpacingExtra="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/padi"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Rice Icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teknik Bertani Padi"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Langkah-langkah irigasi, penanaman, pemupukan, dan pengendalian hama"
+                    android:textSize="14sp"
+                    android:textColor="@color/dark_gray"
+                    android:lineSpacingExtra="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/organik"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Plant Pot Icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Menanam Sayuran Organik"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tips membuat lahan organik dan merawat tanpa pestisida kimia"
+                    android:textSize="14sp"
+                    android:textColor="@color/dark_gray"
+                    android:lineSpacingExtra="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/hidroponik"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Small Plant Icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bertani di Lahan Sempit"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teknik 'urban farming', hidroponik, dan vertikultur"
+                    android:textSize="14sp"
+                    android:textColor="@color/dark_gray"
+                    android:lineSpacingExtra="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/lampu"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Tips Icon" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Bertani"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
