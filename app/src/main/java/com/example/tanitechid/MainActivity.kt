@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -20,6 +21,15 @@ class MainActivity : AppCompatActivity() {
         val btnPanduanBertani: LinearLayout = findViewById(R.id.btn_panduan_bertani)
         val btnPetaTanah: LinearLayout = findViewById(R.id.btn_peta_tanah)
         val btnRekomendasiPupuk: LinearLayout = findViewById(R.id.btn_rekomendasi_pupuk)
+        // Inisialisasi Tombol Logout yang sekarang adalah TextView
+        val logoutButton: TextView = findViewById(R.id.logoutButton)
+        logoutButton.setOnClickListener {
+            Toast.makeText(this, "Logout berhasil!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            finish()
+        }
 
         // --- Contoh Penanganan Klik untuk Tombol-tombol di GridLayout ---
 
