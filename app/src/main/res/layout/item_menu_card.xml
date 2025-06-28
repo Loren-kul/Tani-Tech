@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <!-- LinearLayout untuk menata ikon dan teks secara vertikal dan di tengah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Ikon Menu -->
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="@null"
+            tools:src="@drawable/ic_search_gray" />
+
+        <!-- Teks Menu -->
+        <TextView
+            android:id="@+id/menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            tools:text="Cari Tanaman" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
