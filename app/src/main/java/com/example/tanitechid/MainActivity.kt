@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         // Inisialisasi Tombol Logout yang sekarang adalah TextView
         val logoutButton: TextView = findViewById(R.id.logoutButton)
 
+
+
+
         //      searchBar.setOnEditorActionListener { v, actionId, event ->
         //     }
 
